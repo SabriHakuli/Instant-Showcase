@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background: rgb(252, 252, 252);
+}
+
+
+
+.title {
+    margin-top: 50px;
+}
+
+.title h1 {
+    font-weight: 600;
+    font-size: 50pt;
+    color: #374c4b;
+}
+
+.title p {
+    color: #374c4b;
+    font-weight: 100;
+    font-size: 20pt;
+}
+
+.MAC {
+    float: right;
+}
+
+.MAC {
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: -2s;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+.MAC img {
+    width: 650px;
+}
+
+.words {
+    float: left;
+}
+
+.words p {
+    margin-top: 150px;
+    font-size: 20pt;
+    color: #374c4b;
+}
+
+
+.mouse {
+    margin-left: 300px;
+    margin-top: 430px;
+}
+
+.mouse img {
+    width: 150px;
+}
+
+
+.mouse {
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 5s;
+    animation-delay: -2s;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+@media only screen and (max-width: 600px) { 
+    .words {
+        display: none;
+    }
+    .mouse {
+        display: none;
+    }
+}
